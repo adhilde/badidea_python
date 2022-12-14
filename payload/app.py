@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, session
-from settings import VERSION
+from settings import VERSION, APPLICATION_SECRET_KEY
 from captcha import generate_captcha
 import json
 from uuid import uuid4
@@ -7,7 +7,7 @@ import smtplib
 from email.message import EmailMessage
 
 application = Flask(__name__)
-application.secret_key = 'almcvlaiselialsn'
+application.secret_key = APPLICATION_SECRET_KEY
 
 
 

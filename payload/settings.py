@@ -1,4 +1,5 @@
 
 
+APPLICATION_SECRET_KEY='almcvlaiselialsn'
 
 VERSION='2021.1'
