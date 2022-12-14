@@ -1,0 +1,61 @@
+.course-materials-label{
+    font-size:18px;
+    font-weight:bold;
+}
+
+.table-pretty-header-top{
+    border-top:1px solid #000;
+}
+
+.table-pretty-spacing-header {
+    margin: 2px 10px;
+}
+
+.table-pretty-spacing {
+    margin: 7px;
+}
+
+.max-width-name {
+    max-width: 500px;
+}
+
+.min-width-variant{
+    min-width:130px;
+}
+
+#schedule-foot-text {
+    text-align:center;
+    font-weight:bold;
+    font-size:12px;
+    margin-top:10px;
+}
+
+#courseNotes {
+    width:100%;
+    margin-bottom: 30px;
+}
+
+.course-notes-label{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.staff-error-message-text {
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+    background-color:#a23336;
+    padding:20px;
+}
+
+.staff-error-logout-button{
+    text-align:center;
+    margin-top:20px;
+}
+
+.staff-a-number-label {
+    font-weight:bold;
+    font-size:20px;
+    margin-bottom:20px;
+}

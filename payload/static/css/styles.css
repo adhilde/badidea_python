@@ -1,0 +1,615 @@
+h2 {
+    font-weight:bold;
+}
+
+.campus-store-listing {
+    border-radius: 3px;
+    /* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2); */
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    font-size: 15px;
+    background-color:#ddd;
+    color:#333;
+    /*
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.428571429;
+    color: #333;
+     */
+    margin-bottom: 15px;
+}
+
+.main_background_color{
+    background: rgb(3,3,82);
+    background: linear-gradient(90deg, rgba(3,3,82,1) 0%, rgba(25,22,59,1) 34%, rgba(101,43,23,1) 41%, rgba(193,91,29,1) 100%);
+}
+
+.campus-store-listing-header {
+    padding: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #0f2439;
+}
+
+#header {
+    padding: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    /*https://cssgradient.io/*/
+    background: rgb(3,3,82);
+    background: linear-gradient(90deg, rgba(3,3,82,0) 0%, rgba(4,4,66,1) 6%, rgba(25,22,59,1) 74%, rgba(101,43,23,1) 90%, rgba(193,91,29,0) 100%);
+    min-height:180px;
+}
+
+#bookstore-logo {
+    width:100px;
+}
+
+#footer{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: rgb(4,4,66);
+    background: linear-gradient(0deg, rgba(4,4,66,1) 0%, rgba(23,19,66,1) 49%, rgba(29,22,60,0) 100%);
+    padding:50px 10px 10px 10px;
+    min-height:100px;
+    text-align: right;
+}
+
+.content-padding{
+    padding: 20px;
+}
+
+
+.campus-store-listing h2, .campus-store-listing h3 {
+    margin: 0;
+    /* font-weight: 500;
+    line-height: 1.1;
+    color: #384660;
+    font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; */
+}
+
+.campus-store-listing-header h2 {
+    color: #fff;
+}
+
+/* .campus-store-listing p {
+    margin: 0 0 10px;
+} */
+
+.campus-store-listing-notes {
+    /* padding: 15px 10px; */
+    /* background-color: #E8E8E8; */
+    border-bottom: 1px solid #eee;
+    margin: 15px 10px 0 10px;
+}
+
+.campus-store-listing-body {
+    padding: 10px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    /* background-color: #E8E8E8; */
+}
+
+ul.campus-store-listing-book-info li{
+    padding: 3px;
+    border-bottom: 1px solid #eee;
+}
+
+ul.campus-store-listing-book-info .book-type{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.student-notes{
+    padding:10px;
+    font-weight:600;
+}
+
+#book-sort {
+    float: right;
+}
+
+.campus-store-listing-hr{
+    clear: right;
+}
+
+.indent-instructor{
+    padding-left:30px;
+}
+
+.white-text{
+    color: white;
+}
+
+#error-head{
+    color:#fff;
+}
+
+#error1{
+    padding-top:15px;
+    padding-bottom:30px;
+    padding-left: 30px;
+    background-color: #0f2439;
+}
+
+#error2{
+    padding-left:45px;
+    padding-bottom:50px;
+}
+
+.rnd-btn {
+    background-color: #0f2439;
+    border: none;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.textbook-image {
+    width:105px;
+    border:1px solid #0f2439;
+}
+
+.image-right-padding {
+    padding-right:20px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clear-float {
+    clear:both;
+}
+
+.center-text {
+    text-align:center;
+}
+
+.center-image {
+    text-align:center;
+    display:block;
+    margin:auto;
+}
+
+.margin-top-20 {
+    margin-top:20px;
+}
+
+.margin-right-20 {
+    margin-right:20px;
+}
+
+.font-size-20 {
+    font-size:20px;
+}
+
+.font-size-15 {
+    font-size:15px;
+}
+
+.box-border-dashes {
+    border: 1px dashed #000;
+}
+
+
+/**/
+/* ALL PAGES */
+
+/*  COLOR TEMPLATES
+    #6f6f6f -- hover over link color / border color
+    #555    -- Main Gray Background 
+*/
+
+.shim {
+    clear:both;
+}
+body {
+    font-family: arial;
+    margin:0 auto;
+    background-color: #555;
+    color:#fff;
+    /*max-width: 1400px;*/
+}
+
+.cursor{
+    cursor:pointer;
+}
+
+.bio_border, .module_border { border:1px solid #6f6f6f; }
+.lead-page-image {
+    margin-right: 20px;
+    margin-bottom:20px;
+    width:150px;
+}
+
+.bio-list-item{
+    margin-bottom:10px;
+}
+
+.read-more-look-like-link{
+    text-decoration:underline;
+    color:#8dc6f6;
+}
+.bio-link:active, .bio-link:link, .bio-link:visited {
+    color:#fff;
+}
+.bio-link:hover{
+    color:#ccc;
+}
+
+.highlight-name{
+    font-weight:bold;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.site-button{
+    color:#770000;
+}
+
+.form-element-row { padding: 10px;}
+.right-justify{text-align: right;}
+.left-justify{ text-align: left;}
+
+/*.width-100pct {width:100%;}
+.width-1400{width:1400px;}*/
+
+.float-left {float:left;}
+.padding-right-10 {padding-right:10px;}
+.line-height-25px{line-height: 25px;}
+
+a.seem-like-no-link:hover,
+a.seem-like-no-link:active,
+a.seem-like-no-link:visited,
+a.seem-like-no-link:link{
+    color:#fff;
+    text-decoration:none;   
+}
+
+
+.font-size-20px{
+    font-size: 20px;
+}
+
+#front-page-row-two-col-two-container:hover{
+    background-color:#5E5B5B;
+}
+
+
+
+
+
+
+
+
+
+/* ALL PAGES */
+
+
+.front-page-text{
+    text-align:justify;
+    font-weight:bold;
+    color:#253C60;
+    font-size: 16px;
+    margin-bottom:40px;
+}
+.text-size-16 {
+    font-size: 16px;
+}
+.bold {
+    font-weight:bold;
+}
+.img-thumb {
+    width:200px;
+    margin:10px 0px;
+}
+#page-wrap {
+    padding-bottom:55px;
+}
+.cca {
+    padding:15px 30px;
+    background-color:#fff;
+    border:1px solid #888;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cca-front {
+    padding:15px 30px;
+}
+.underline {
+    text-decoration: underline;
+}
+.top-buffer {
+    margin-top:10px;
+}
+.pad10{padding:10px;}
+.float-left {
+    float:left;
+}
+
+/* Carousel */
+.carousel-inner > .item > img{
+    max-width: 400px;
+    max-height: 300px;
+    margin: auto;
+}
+div.c-wrapper{
+    width: 400px; 
+    margin: auto;
+}
+
+/* Error Page */
+.pad_30px0Px{
+    padding: 30px 0px;
+}
+.custom-error-p {
+    font-weight:bold; 
+    font-size:20px;
+    text-align:center; 
+    line-height: 40px;
+}
+
+/* Navigation */
+.custom-10px-spacer {
+    height:10px;
+}
+.custom-40px-spacer {
+    height:40px;
+    background-color: #767373;
+    background: -webkit-linear-gradient(top, #767373 , #464343); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, #767373, #464343); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, #767373, #464343); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #767373 , #464343); /* Standard syntax */
+}
+.map-us-nav {
+    width:50px;
+    height:50px;
+    background:url('/img/usMap.png') -55px -13px;
+    background-repeat: no-repeat; 
+    background-size: 200% 150%;
+    float:left;
+}
+.main_logo_img{
+    width:85px;
+    margin-top:12px;
+}
+.main_logo_text{
+    
+}
+.nav-main-link {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    padding: 0 3px;
+}
+
+.nav-normal-view{
+    /* used to be able to hide on smaller views ... smaller then 730px */
+}
+
+.nav-mobile-view{
+    display:none;
+    
+}
+
+.custom-sm-nav-row{
+    background-color:#770000;
+    line-height:60px;
+    color:#fff;
+    
+}
+
+.nav-logo-for-mobile{
+    width:50px;
+    margin-left:10px;
+}
+
+.nav-menu-for-mobile{
+    width:25px;
+}
+
+.nav-menu-list-container-mobile{
+    position:absolute;
+    right:0px;
+    width:200px;
+    height:300px;        
+    display:none;
+    color:#fff;
+}
+
+.mobile-nav-vertical-list{
+    border: 1px solid #ccc;
+}
+
+.full-screen-click-plate{
+    position: fixed;
+    width:100%;
+    height:100%;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    background-color:#000;    
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+}
+
+
+@media only screen and (max-width: 1171px) {
+    .nav-main-link {
+        font-size:20px;
+    }
+}
+
+@media only screen and (max-width: 829px){
+    .nav-main-link{
+        line-height: 20px; 
+       margin-top:30px;
+    }
+}
+@media only screen and (max-width: 730px){
+    .nav-normal-view{
+        display:none;
+    }
+    .nav-mobile-view{
+        display:block;
+    }
+}
+
+.map-eu-nav {
+    width:50px;
+    height:50px;
+    background:url('/img/euMap.png') -10px -20px;
+    background-repeat: no-repeat; 
+    background-size: 250% 250%;
+    float:left;
+}
+.custom-nav-row {
+    background-color: #770000;
+/*    background: -webkit-linear-gradient(left, #770000 , #6D4444);  For Safari 5.1 to 6.0 
+    background: -o-linear-gradient(right, #770000, #6D4444);  For Opera 11.1 to 12.0 
+    background: -moz-linear-gradient(right, #770000, #6D4444);  For Firefox 3.6 to 15 
+    background: linear-gradient(to right, #770000 , #6D4444);  Standard syntax */
+}
+.main-nav {
+    display:inline;
+}
+.non-elements-nav-row {
+    line-height:25px;
+    width:100%;
+}
+.custom-main-logo { 
+    width:100%;
+}
+.custom-nav-label {
+    color:#fff;
+    text-align:center;
+    font-size:14px;
+    padding:15px 0px;
+    margin-top: 25px;
+}
+.custom-nav-link:active, .custom-nav-link:link, .custom-nav-link:visited {
+    color:#fff;
+    text-decoration:none;
+}
+.custom-nav-link:hover, .custom-nav-label:hover {
+    color:#ccc;
+    text-decoration:underline;
+}
+
+
+/* Footer */
+#footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+#footer-top-spacer {
+    height:10px;
+}
+#footer-bottom-spacer {
+    height:5px;
+}
+#footer-row-container {
+    background-color: #770000;
+    color:#fff;
+    /*max-width: 1400px;*/
+    margin:0 auto;
+    height:45px;
+    font-size: 11px;
+}
+.footer-gutter {
+    width:0px;
+    float:left;
+}
+#footer-content {
+    float:left;
+    text-align:center;
+    width:100%;
+    line-height:45px;
+}
+
+/* Front Page*/
+.carousel-text-flow{
+    float:left;
+    margin:0px 30px 30px 0px;
+    
+}
+
+
+
+.lighter_dark_background{
+    background-color:#5E5B5B;
+}
+
+.dark_background{
+    background-color:#464343;
+}
+
+.pad50{
+    padding:50px;
+}
+.padding-top-20 {
+    padding-top:20px;
+}
+
+.padding-bottom-20 {
+    padding-bottom:20px;
+}
+
+.white_text{
+    color:#fff;
+}
+
+.general_text{
+    color:#333;
+}
+
+/* People */
+.bio-img {
+    width:150px;
+}
+.bio-img-spacing {
+	float:left;
+	margin-right:5px;
+}
+.contact-label {
+    font-weight:bold;
+    font-size:18px;
+    margin:30px 0px 10px 10px;
+}
+
+
+/* Contact */
+.request-contact-label {
+    text-align:center;
+    font-weight: bold;
+    margin-bottom:30px;
+}
+.contact-form-textarea {
+    width:100%;
+    height:100%;
+    min-height:100px;
+}
+.contact-form-success-message {
+    margin:20px;
+    color:#4cae4c;
+    font-size:14px;
+    font-weight:bold;
+}
+.margin-bottom-15px {
+	margin-bottom:15px;
+}
+.center-text {
+	text-align:center;
+}

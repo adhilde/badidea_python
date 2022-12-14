@@ -1,0 +1,351 @@
+@media screen {
+    .campus-store-listing {
+        border-radius: 3px;
+        border: 1px solid #000;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .campus-store-listing-header {
+        padding: 10px;
+    }
+
+    .campus-store-listing h2, .campus-store-listing h3 {
+        margin: 0;
+        color: #000;
+    }
+
+    .campus-store-listing-notes {
+        border-bottom: 1px solid #eee;
+        margin: 10px 10px 0 10px;
+    }
+
+    .campus-store-listing-body {
+        padding: 10px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+    ul.campus-store-listing-book-pricing li{
+        padding: 3px;
+        display: inline;
+    }
+
+    ul.campus-store-listing-book-pricing li .book-price{
+        float: none !important;
+    }
+
+    ul.campus-store-listing-book-pricing .book-type{
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+
+    .book-info p {
+        display: inline;
+        margin: 0 5px;
+        white-space: nowrap;
+    }
+
+    /* style the sort by buttons */
+    #book-sort {
+        float: right;
+    }
+
+    .campus-store-listing-hr{
+        clear: right;
+    }
+
+    #footer{
+        color:#000;
+        background-color:#fff;
+        text-align:right;
+        padding:5px;
+    }
+
+    #schedule-foot-text {
+        text-align:center;
+        font-weight:bold;
+        font-size:16px;
+        margin-top:10px;
+    }
+
+    .table-pretty-spacing {
+        margin: 10px;
+    }
+
+    .table-pretty-header-top{
+        border-top:1px solid #000;
+    }
+
+    .min-width-variant{
+        min-width:130px;
+    }
+
+    .max-width-name {
+        max-width: 500px;
+    }
+
+    .table-pretty-spacing-header {
+        margin: 2px 10px;
+    }
+
+    #materials {
+        width:100%;
+    }
+
+    #materials tr {
+        border-bottom:1px solid #000;
+    }
+
+    #materials th {
+        border-spacing: 10px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    #materials td {
+        border-spacing: 10px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    #courseNotes {
+        width:100%;
+        margin-bottom: 30px;
+    }
+
+    #courseNotes tr {
+        border-bottom:1px solid #000;
+    }
+
+    #courseNotes th {
+        border-spacing: 10px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    #courseNotes td {
+        border-spacing: 10px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .course-notes-label{
+        margin-top:30px;
+        font-size:18px;
+        font-weight:bold;
+    }
+
+    .course-materials-label{
+        font-size:18px;
+        font-weight:bold;
+    }
+
+    .username-label{
+        margin-top:20px;
+        font-size:16px;
+        font-weight:bold;
+    }
+
+    .campus-store-logo {
+        float:right;
+        padding:10px;
+        width:120px;
+    }
+
+    .rnd-btn {
+        background-color: #0f2439;
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 5px;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+
+    .no-courses-label{
+        font-size:18px;
+        font-weight:bold;
+        margin-top:40px;
+        padding:10px;
+        border-radius: 8px;
+        border: 1px #0f2439 solid;
+
+    }
+
+    .student-label{
+        margin-right:30px;
+    }
+}
+
+
+@media print {
+    body{
+        font-size:10px;
+    }
+
+    h1 {
+        display:none;
+    }
+
+    .main-container-wrapper {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .rnd-btn {
+        display:none;
+    }
+
+    .campus-store-listing-hr{
+        display:none;
+    }
+
+    .campus-store-listing {
+        border-radius: 3px;
+        border: 1px solid #000;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .campus-store-listing-header {
+        padding: 10px;
+    }
+
+    .campus-store-listing h2, .campus-store-listing h3 {
+        margin: 0;
+        color: #000;
+    }
+
+    .campus-store-listing-notes {
+        border-bottom: 1px solid #eee;
+        margin: 10px 10px 0 10px;
+    }
+
+    .campus-store-listing-body {
+        padding: 10px;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+    ul.campus-store-listing-book-pricing li{
+        padding: 3px;
+        display: inline;
+    }
+
+    ul.campus-store-listing-book-pricing li .book-price{
+        float: none !important;
+    }
+
+    ul.campus-store-listing-book-pricing .book-type{
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+
+    .book-info p {
+        display: inline;
+        margin: 0 5px;
+        white-space: nowrap;
+    }
+
+    /* style the sort by buttons */
+    #book-sort {
+        float: right;
+    }
+
+    .campus-store-listing-hr{
+        clear: right;
+    }
+
+    #footer{
+        display:none;
+    }
+
+    #schedule-foot-text {
+        text-align:center;
+        font-weight:bold;
+        font-size:12px;
+        margin-top:10px;
+    }
+
+    .table-pretty-spacing {
+        margin: 7px;
+    }
+
+    .table-pretty-header-top{
+        border-top:1px solid #000;
+    }
+
+    .min-width-variant{
+        min-width:130px;
+    }
+
+    .max-width-name {
+        max-width: 500px;
+    }
+
+    .table-pretty-spacing-header {
+        margin: 2px 10px;
+    }
+
+    #materials {
+        width:100%;
+    }
+
+    #materials tr {
+        border-bottom:1px solid #000;
+    }
+
+    #materials th {
+        border-spacing: 10px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    #materials td {
+        border-spacing: 10px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    #courseNotes {
+        width:100%;
+        margin-bottom: 20px;
+    }
+
+    #courseNotes tr {
+        border-bottom:1px solid #000;
+    }
+
+    #courseNotes th {
+        border-spacing: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+
+    #courseNotes td {
+        border-spacing: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+
+    .course-notes-label{
+        margin-top:20px;
+        font-size:12px;
+        font-weight:bold;
+    }
+
+    .course-materials-label{
+        font-size:12px;
+        font-weight:bold;
+    }
+
+    .username-label{
+        margin-top:20px;
+        font-size:12px;
+        font-weight:bold;
+    }
+
+    .campus-store-logo {
+        float:right;
+        padding:10px;
+        width:80px;
+    }
+}

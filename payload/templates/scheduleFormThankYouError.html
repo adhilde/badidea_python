@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bad Idea Metals - Pickup Request</title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link href="card.css" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/custom.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/styles.css" rel="stylesheet" type="text/css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EW1GV1TJG5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-EW1GV1TJG5');
+    </script>
+
+    <script>
+        $(document).ready(function(){showCaptcha();});
+
+        function showCaptcha(){
+            if('{{sessionCaptcha}}' == 'False'){
+                $('#captcha-window').toggle();
+            }else{
+                $('#request-form').toggle();
+            }
+        };
+
+        function submitCaptcha(value){
+            answer = {{cs}}
+            if(value == answer){
+                $.ajax({
+                    Type: 'POST',
+                    url: "/ajax_captcha",
+                });
+                $('#captcha-window').toggle();
+                $('#request-form').toggle();
+            }
+            else{
+                location.reload();
+            }
+        }
+    </script>
+
+</head>
+
+<body style="color:#fff;" class="main_background_color">
+<div class="main-container">
+    <div class="main-container-wrapper">
+        <div id="content">
+            <div id="header">
+                <div class="custom-nav-row nav-normal-view">
+                    <a href="/">
+                        <div class="col-xs-2">
+                            <img src="/static/imgs/white_logo.png" class="main_logo_img center-image">
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="nav-main-link" style="padding-top:70px;">
+                                <div style="font-size:40px;">Bad Idea Metals</div>
+                                <div style="font-size:16px;">eWaste and Recycling, LLC</div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="col-xs-6"></div>
+                </div>
+            </div>
+            <div class="campus-store-listing content-padding">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row pad50">
+                                <div class="text-left" style="font-size:20px;"><a href="/">X Close</a></div>
+                                <div class="center-text">
+                                    <H1>Request Pickup or Dropoff - Submitted</H1>
+
+                                    <div>
+                                        <p>The form encountered an error sending your request.  Please try again in a little bit</p>
+                                        <p>or reach out via phone or email: (435) 554-8547 or badideametals@gmail.com</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row pad50"></div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <div class="white-text center-text">Bad Idea Metals, eWaste and Recycling, LLC - © 2021</div>
+                    <div class="white-text text-right"><a href="/rnotes">v.{{version}}</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
